@@ -1,0 +1,17 @@
+<h1>Stupid, idiot, ridiculous coach tells you: </h1>
+
+<div class="coach-ask">
+  <h4>Your stupid question was:</h4>
+  <p> <%= @question %> </p>
+</div>
+
+
+<div class="coach-answer">
+  <h4>Our coach says:</h4>
+  <p><%= @answer %></p>
+</div>
+
+<div class="banana"></div>
+<%= link_to "ask another question", ask_path, class: "btn" %>
+<div class="banana"></div>
+<%= link_to "go to home", root_path, class: "btn" %>
